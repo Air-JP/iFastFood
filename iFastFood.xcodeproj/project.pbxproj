@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		829DE1412A0BE4F200F30767 /* iFastFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1402A0BE4F200F30767 /* iFastFoodApp.swift */; };
-		829DE1432A0BE4F200F30767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1422A0BE4F200F30767 /* ContentView.swift */; };
 		829DE1452A0BE4F400F30767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829DE1442A0BE4F400F30767 /* Assets.xcassets */; };
 		829DE1482A0BE4F400F30767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829DE1472A0BE4F400F30767 /* Preview Assets.xcassets */; };
 		829DE1522A0BE4F400F30767 /* iFastFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1512A0BE4F400F30767 /* iFastFoodTests.swift */; };
 		829DE15C2A0BE4F400F30767 /* iFastFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE15B2A0BE4F400F30767 /* iFastFoodUITests.swift */; };
 		829DE15E2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE15D2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift */; };
 		829DE16B2A0BE64700F30767 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 829DE16A2A0BE64700F30767 /* menu.json */; };
+		829DE1712A0BE86000F30767 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1702A0BE86000F30767 /* Persistence.swift */; };
+		829DE1772A0BFC4D00F30767 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1762A0BFC4D00F30767 /* Extensions.swift */; };
+		829DE17A2A0BFD0E00F30767 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1792A0BFD0E00F30767 /* MenuModel.swift */; };
+		829DE17D2A0BFD5D00F30767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE17C2A0BFD5D00F30767 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		829DE13D2A0BE4F200F30767 /* iFastFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFastFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		829DE1402A0BE4F200F30767 /* iFastFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastFoodApp.swift; sourceTree = "<group>"; };
-		829DE1422A0BE4F200F30767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		829DE1442A0BE4F400F30767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		829DE1472A0BE4F400F30767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		829DE14D2A0BE4F400F30767 /* iFastFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFastFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,10 @@
 		829DE15B2A0BE4F400F30767 /* iFastFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastFoodUITests.swift; sourceTree = "<group>"; };
 		829DE15D2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		829DE16A2A0BE64700F30767 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		829DE1702A0BE86000F30767 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		829DE1762A0BFC4D00F30767 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		829DE1792A0BFD0E00F30767 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		829DE17C2A0BFD5D00F30767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 		829DE13F2A0BE4F200F30767 /* iFastFood */ = {
 			isa = PBXGroup;
 			children = (
-				829DE16E2A0BE68000F30767 /* Views */,
+				829DE17B2A0BFD3200F30767 /* Views */,
+				829DE1782A0BFCF500F30767 /* Models */,
+				829DE1752A0BFC3000F30767 /* Helpers */,
+				829DE16F2A0BE83700F30767 /* Persistence */,
 				829DE16D2A0BE66C00F30767 /* System */,
 				829DE16C2A0BE65200F30767 /* Resources */,
 				829DE1462A0BE4F400F30767 /* Preview Content */,
@@ -146,12 +155,36 @@
 			name = System;
 			sourceTree = "<group>";
 		};
-		829DE16E2A0BE68000F30767 /* Views */ = {
+		829DE16F2A0BE83700F30767 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				829DE1422A0BE4F200F30767 /* ContentView.swift */,
+				829DE1702A0BE86000F30767 /* Persistence.swift */,
 			);
-			path = Views;
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		829DE1752A0BFC3000F30767 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				829DE1762A0BFC4D00F30767 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		829DE1782A0BFCF500F30767 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				829DE1792A0BFD0E00F30767 /* MenuModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		829DE17B2A0BFD3200F30767 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				829DE17C2A0BFD5D00F30767 /* ContentView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829DE1432A0BE4F200F30767 /* ContentView.swift in Sources */,
+				829DE1772A0BFC4D00F30767 /* Extensions.swift in Sources */,
+				829DE1712A0BE86000F30767 /* Persistence.swift in Sources */,
+				829DE17D2A0BFD5D00F30767 /* ContentView.swift in Sources */,
+				829DE17A2A0BFD0E00F30767 /* MenuModel.swift in Sources */,
 				829DE1412A0BE4F200F30767 /* iFastFoodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
