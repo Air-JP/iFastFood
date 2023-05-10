@@ -14,6 +14,7 @@
 		829DE1522A0BE4F400F30767 /* iFastFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1512A0BE4F400F30767 /* iFastFoodTests.swift */; };
 		829DE15C2A0BE4F400F30767 /* iFastFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE15B2A0BE4F400F30767 /* iFastFoodUITests.swift */; };
 		829DE15E2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE15D2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift */; };
+		829DE16B2A0BE64700F30767 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 829DE16A2A0BE64700F30767 /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		829DE1572A0BE4F400F30767 /* iFastFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFastFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		829DE15B2A0BE4F400F30767 /* iFastFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastFoodUITests.swift; sourceTree = "<group>"; };
 		829DE15D2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		829DE16A2A0BE64700F30767 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,9 @@
 		829DE13F2A0BE4F200F30767 /* iFastFood */ = {
 			isa = PBXGroup;
 			children = (
-				829DE1402A0BE4F200F30767 /* iFastFoodApp.swift */,
-				829DE1422A0BE4F200F30767 /* ContentView.swift */,
-				829DE1442A0BE4F400F30767 /* Assets.xcassets */,
+				829DE16E2A0BE68000F30767 /* Views */,
+				829DE16D2A0BE66C00F30767 /* System */,
+				829DE16C2A0BE65200F30767 /* Resources */,
 				829DE1462A0BE4F400F30767 /* Preview Content */,
 			);
 			path = iFastFood;
@@ -125,6 +127,31 @@
 				829DE15D2A0BE4F400F30767 /* iFastFoodUITestsLaunchTests.swift */,
 			);
 			path = iFastFoodUITests;
+			sourceTree = "<group>";
+		};
+		829DE16C2A0BE65200F30767 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				829DE1442A0BE4F400F30767 /* Assets.xcassets */,
+				829DE16A2A0BE64700F30767 /* menu.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		829DE16D2A0BE66C00F30767 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				829DE1402A0BE4F200F30767 /* iFastFoodApp.swift */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		829DE16E2A0BE68000F30767 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				829DE1422A0BE4F200F30767 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829DE16B2A0BE64700F30767 /* menu.json in Resources */,
 				829DE1482A0BE4F400F30767 /* Preview Assets.xcassets in Resources */,
 				829DE1452A0BE4F400F30767 /* Assets.xcassets in Resources */,
 			);
