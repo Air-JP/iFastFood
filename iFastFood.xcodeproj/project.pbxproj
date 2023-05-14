@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82550FED2A10D46D0057D9C4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82550FEC2A10D46D0057D9C4 /* ViewModel.swift */; };
 		829DE1412A0BE4F200F30767 /* iFastFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DE1402A0BE4F200F30767 /* iFastFoodApp.swift */; };
 		829DE1452A0BE4F400F30767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829DE1442A0BE4F400F30767 /* Assets.xcassets */; };
 		829DE1482A0BE4F400F30767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829DE1472A0BE4F400F30767 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82550FEC2A10D46D0057D9C4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		829DE13D2A0BE4F200F30767 /* iFastFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFastFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		829DE1402A0BE4F200F30767 /* iFastFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastFoodApp.swift; sourceTree = "<group>"; };
 		829DE1442A0BE4F400F30767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		829DE16A2A0BE64700F30767 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		829DE1702A0BE86000F30767 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		829DE1762A0BFC4D00F30767 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		829DE1792A0BFD0E00F30767 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		829DE1792A0BFD0E00F30767 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		829DE17C2A0BFD5D00F30767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82550FEB2A10D45B0057D9C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82550FEC2A10D46D0057D9C4 /* ViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		829DE1342A0BE4F200F30767 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 		829DE13F2A0BE4F200F30767 /* iFastFood */ = {
 			isa = PBXGroup;
 			children = (
+				82550FEB2A10D45B0057D9C4 /* ViewModel */,
 				829DE17B2A0BFD3200F30767 /* Views */,
 				829DE1782A0BFCF500F30767 /* Models */,
 				829DE1752A0BFC3000F30767 /* Helpers */,
@@ -322,6 +333,7 @@
 				829DE1712A0BE86000F30767 /* Persistence.swift in Sources */,
 				829DE17D2A0BFD5D00F30767 /* ContentView.swift in Sources */,
 				829DE17A2A0BFD0E00F30767 /* MenuModel.swift in Sources */,
+				82550FED2A10D46D0057D9C4 /* ViewModel.swift in Sources */,
 				829DE1412A0BE4F200F30767 /* iFastFoodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
