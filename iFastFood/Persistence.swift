@@ -14,6 +14,5 @@ final class Persistence {
     
     func fetchData() throws -> [MenuModel] {
         return Bundle.main.decode(type: [MenuModel].self, from: "menu.json")
-
     }
 }
