@@ -13,7 +13,7 @@ struct iFastFoodApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainMenuListView()
+            MainTabView()
                 .environmentObject(vm)
         }
     }

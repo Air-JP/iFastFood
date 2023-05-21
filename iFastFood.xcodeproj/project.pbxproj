@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82356EFC2A1A06F80089115C /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82356EFB2A1A06F80089115C /* OrderListView.swift */; };
+		82356EFE2A1A184A0089115C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82356EFD2A1A184A0089115C /* MainTabView.swift */; };
 		82550FED2A10D46D0057D9C4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82550FEC2A10D46D0057D9C4 /* ViewModel.swift */; };
 		825C233A2A13D64500157422 /* ListViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C23392A13D64500157422 /* ListViewDetail.swift */; };
 		8281449D2A10E46F00975D2C /* MainMenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281449C2A10E46F00975D2C /* MainMenuListView.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82356EFB2A1A06F80089115C /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		82356EFD2A1A184A0089115C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		82550FEC2A10D46D0057D9C4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		825C23392A13D64500157422 /* ListViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDetail.swift; sourceTree = "<group>"; };
 		8281449C2A10E46F00975D2C /* MainMenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuListView.swift; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 				8281449C2A10E46F00975D2C /* MainMenuListView.swift */,
 				8281449E2A10EBD800975D2C /* MainListCellView.swift */,
 				825C23392A13D64500157422 /* ListViewDetail.swift */,
+				82356EFB2A1A06F80089115C /* OrderListView.swift */,
+				82356EFD2A1A184A0089115C /* MainTabView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -337,12 +343,14 @@
 			files = (
 				829DE1772A0BFC4D00F30767 /* Extensions.swift in Sources */,
 				825C233A2A13D64500157422 /* ListViewDetail.swift in Sources */,
+				82356EFC2A1A06F80089115C /* OrderListView.swift in Sources */,
 				829DE1712A0BE86000F30767 /* Persistence.swift in Sources */,
 				8281449D2A10E46F00975D2C /* MainMenuListView.swift in Sources */,
 				829DE17A2A0BFD0E00F30767 /* MenuModel.swift in Sources */,
 				8281449F2A10EBD800975D2C /* MainListCellView.swift in Sources */,
 				82550FED2A10D46D0057D9C4 /* ViewModel.swift in Sources */,
 				829DE1412A0BE4F200F30767 /* iFastFoodApp.swift in Sources */,
+				82356EFE2A1A184A0089115C /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
