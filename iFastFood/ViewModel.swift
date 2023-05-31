@@ -11,7 +11,6 @@ final class ViewModel: ObservableObject {
     let persistence = Persistence.shared
     
     @Published var menuItems: [MenuModel] = []
-    @Published var orderedDishes: [MenuDishes] = []
     @Published var search = ""
     
     var filteredDishes: [MenuDishes] {
@@ -35,11 +34,6 @@ final class ViewModel: ObservableObject {
     
     func showDish(dish: MenuDishes) -> Bool {
         search.isEmpty || dish.name.lowercased().contains(search.lowercased())
-    }
-    
-    func addDishToOrder(dish: MenuDishes) {
-        orderedDishes.append(dish)
-        print(orderedDishes)
     }
 }
 

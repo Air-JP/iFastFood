@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ListDetailView: View {
-    @EnvironmentObject var vm: ViewModel
+    @EnvironmentObject var vmOrder: OrderViewModel
     
     let  dish: MenuDishes
     
@@ -31,7 +31,7 @@ struct ListDetailView: View {
                 .padding()
             
             Button {
-                vm.addDishToOrder(dish: dish)
+                vmOrder.addDishToOrder(dish: dish)
             } label: {
                 Text("Order This")
             }
@@ -48,6 +48,7 @@ struct ListDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             ListDetailView(dish: .previewDish)
+                .environmentObject(OrderViewModel())
         }
     }
 }

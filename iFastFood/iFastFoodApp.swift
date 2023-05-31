@@ -10,11 +10,13 @@ import SwiftUI
 @main
 struct iFastFoodApp: App {
     @StateObject var vm = ViewModel()
+    @StateObject var orderVM = OrderViewModel()
     
     var body: some Scene {
         WindowGroup {
             MainTabView()
                 .environmentObject(vm)
+                .environmentObject(orderVM)
         }
     }
 }
